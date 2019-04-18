@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <ComChauhan_Api>
+            <version>1.0.0</version>
+        </ComChauhan_Api>
+    </modules>
+  <frontend>
+    <routers>
+      <api>
+        <use>standard</use>
+          <args>
+            <module>ComChauhan_Api</module>
+            <frontName>mata</frontName>
+          </args>
+      </api>
+    </routers>
+  </frontend>
+</config>
